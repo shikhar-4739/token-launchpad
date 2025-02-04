@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-200 dark:bg-[#181A1B];
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-500 dark:bg-gray-700 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-600 dark:bg-gray-800;
+  }
+  
